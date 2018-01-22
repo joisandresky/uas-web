@@ -62,32 +62,14 @@ if(!isset($_SESSION['nama'])){
                 <li><a href="sales_order.php">SALES ORDERS</a></li>
               </ul>
             </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">LAPORAN <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="laporan_so.php">SALES ORDERS</a></li>
+              </ul>
+            </li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
-    <!-- <div class="menu menu-dropdown">
-      <ul>
-        <li><a href="#">HOME</a></li>
-        <li>
-          <a href="#">MASTER</a>
-          <ul>
-            <li><a href="data_supir.php">DATA SUPIR</a></li>
-            <li><a href="truk/">DATA TRUK</a></li>
-            <li><a href="rute/">DATA RUTE</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#">TRANSAKSI</a>
-          <ul>
-            <li><a href="sales-order/">SALES ORDERS</a></li>
-            <li><a href="work-order/">WORK ORDER</a></li>
-            <li><a href="driver-assignment">DRIVER ASSIGNMENT</a></li>
-          </ul>
-        </li>
-        <li><a href="#">LAPORAN</a></li>
-        <li><a href="logout.php">LOGOUT</a></li>
-      </ul>
-    </div> -->
-    
     <div class="container">
